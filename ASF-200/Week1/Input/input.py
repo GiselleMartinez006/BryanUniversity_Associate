@@ -3,10 +3,12 @@
 # Create an input.py file
 # The message.py file should ask a user their “city” and “zip code”
 # In the input.py file, write a code that displays user input message.
-import sys
-# insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(
-    0, 'c:\\Users\\17865\\dev\\BryanUniversity_Associate\\ASF-200\\week1\\print')
-# from week1.print.message import city, zipcode
-from message import city, zipcode
+####################################
+# import sys
+# sys.path.insert(
+#     0, 'c:\\Users\\17865\\dev\\BryanUniversity_Associate\\ASF-200\\week1\\print')
+# from message import city, zipcode
+
+city = input("What is your city? ")
+zipcode = input("What is your zipcode? ")
 print("userCity: "+city + " " + "userZipcode: " + zipcode)

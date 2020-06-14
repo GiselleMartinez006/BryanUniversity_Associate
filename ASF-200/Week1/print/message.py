@@ -6,5 +6,4 @@
 print("I love python")
 print("It seems pretty simple so far")
 print("realizes I just jinxed it o.o")
-city = input("What is your city? ")
-zipcode = input("What is your zipcode? ")
+
