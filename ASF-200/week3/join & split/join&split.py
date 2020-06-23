@@ -20,10 +20,11 @@ for x in csv.split(","):
                         for n in m.split(";"):
                             x.append(n)
     if type(x) == list: 
-        print(x, "33 list") 
         for w in x: 
             friends_list.append(w)
     else:
         friends_list.append(x)
-    print(friends_list) 
+
+
+print(friends_list) 
 
