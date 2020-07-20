@@ -1,0 +1,16 @@
+{% extends "home/master.html"%}
+
+{% load humanize %}
+{% if location_list %}
+    <!-- {{location_list}} -->
+    <dl>
+    {% for location in location_list %}
+    <!-- {{location}} -->
+      <div>  <dt>{{location.text}}</dt>
+        <dd><a href="{{location.id}}">{{location.created_on|naturaltime}}</a>
+            {% if location.via %}
+                <a href="{{location.via}}">URL</a>
+            {% endif %}
+        <br></div>
+    {% endfor %}
+    <

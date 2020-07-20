@@ -1,0 +1,10 @@
+Details {{location.id}}
+
+<dl>
+    <dd>{{location.text}}</dd>
+    <dt>{{location.created_on}}
+        {%if location.via%}
+            <a href="{location.via}">URL</a>
+        {% endif%}
+    </dt>
+</dl>
