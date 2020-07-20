@@ -1,6 +1,7 @@
 {% extends "home/master.html"%}
-
 {% load humanize %}
+
+{% block content %}
 {% if location_list %}
     <!-- {{location_list}} -->
     <dl>
@@ -13,4 +14,9 @@
             {% endif %}
         <br></div>
     {% endfor %}
-    <
+    </dl>
+{% else %}
+Nope
+{% endif %}
+
+{% endblock %}

@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{%block title%} Traveling {%endblock%}</title>
+    <link rel="stylesheet" href="./../../static/travel/static.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        // using jQuery
+        var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
+        </script>
 </head>
 <body>
-    <header><nav></nav></header>
+
+    <header>
+        <nav>
+            <ul>
+                {%if user.is_authenticated %}
+                <li><a href="{%url 'logout'%}?next=/">LogOut</a></li>
+                {%else%}
+                <li><a href="{%url 'login'%}?next=/">LogIn</a></li>
+                {%endif%}
+            </ul>
+        </nav>
+        <h1><a href="{%url 'homepage' %}">Traveler App</a></h1>
+    </header>
     <main>
         {% block content%}{% endblock%}
 
-   
+    </main>
+    <footer></footer>
+</body>
+</html>

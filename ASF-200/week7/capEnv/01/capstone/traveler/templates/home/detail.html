@@ -1,10 +1,17 @@
-Details {{location.id}}
+{% extends "home/master.html"%}
+
+{% block title%} Details {{location.id}} {%endblock%}
+
+{% block content %}
+
 
 <dl>
     <dd>{{location.text}}</dd>
     <dt>{{location.created_on}}
-        {%if location.via%}
-            <a href="{location.via}">URL</a>
+        {%if location.via %}
+        <a href="{{location.via}}">URL</a>
         {% endif%}
     </dt>
 </dl>
+
+{% endblock%}
