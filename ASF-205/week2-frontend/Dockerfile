@@ -11,6 +11,6 @@ ENV PORT 3000
 
 RUN npx create-react-app .
 
-COPY src/. /clientdata/src
+COPY src/. /clientdata/src/
 
 CMD ["npm","start"] 
