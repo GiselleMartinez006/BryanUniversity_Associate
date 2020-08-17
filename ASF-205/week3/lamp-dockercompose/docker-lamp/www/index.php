@@ -14,9 +14,9 @@
                         LAMP STACK
                     </h1>
                     <h2 class="subtitle">
-                        Your local development environment 
+                        Development environment <h3> Yay!!! It's finally working! </h3>
                     </h2>
-                    <h3> Yay!!! It's finally working! </h3>
+                    
                 </div>
             </div>
         </section>
