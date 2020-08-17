@@ -16,21 +16,21 @@ phpfpm:
         - "9000:9000"
     volumes: 
         - ./public:/usr/share/nginx/html
-mysql: 
-    image: mariadb
-    ports: 
-        - 3305:80
-    environment: 
-        MYSQL_ROOT_PASSWORD: 774107
+mysql:
+    image: 'mariadb'
+    ports:
+        - '3303:3306'
+    volumes:
+        - ./db-data:/var/lib/mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=password
 phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: corbinu/docker-phpmyadmin
     restart: always
-    links: 
-        - mysql
-    ports: 
-        - 8183:80
-    environment: 
-        MYSQL_USERNAME: admin
-        MYSQL_ROOT_PASSWORD: 774107
-        PMA_ARBITRARY: 1
-
+    links:
+    - mysql:mysql
+    ports:
+    - 8183:80
+    environment:
+        MYSQL_USERNAME: root
+        MYSQL_ROOT_PASSWORD: password
