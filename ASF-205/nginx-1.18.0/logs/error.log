@@ -1,0 +1,134 @@
+2020/09/15 15:43:59 [error] 9496#7304: *1 "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 15:44:51 [error] 9496#7304: *1 CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/html/blue" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /blue HTTP/1.1", host: "localhost"
+2020/09/15 17:04:22 [notice] 7968#10724: signal process started
+2020/09/15 17:05:50 [notice] 836#6540: signal process started
+2020/09/15 17:54:17 [notice] 14072#10756: signal process started
+2020/09/15 17:54:17 [emerg] 14060#13252: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/09/15 17:54:43 [error] 5104#3768: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:55:31 [error] 5104#3768: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:55:34 [error] 5104#3768: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:55:37 [notice] 13684#6864: signal process started
+2020/09/15 17:55:37 [emerg] 14060#13252: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/09/15 17:55:39 [error] 5104#3768: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:56:16 [error] 5104#3768: *1 CreateFile() "C:/data/www/home.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /home.html HTTP/1.1", host: "localhost"
+2020/09/15 17:56:18 [error] 5104#3768: *1 CreateFile() "C:/data/www/home.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /home.html HTTP/1.1", host: "localhost"
+2020/09/15 17:56:23 [notice] 9852#14016: signal process started
+2020/09/15 17:56:23 [emerg] 14060#13252: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/09/15 17:56:27 [notice] 7304#12168: signal process started
+2020/09/15 17:56:43 [error] 6856#4892: *1 CreateFile() "C:/data/www/home.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /home.html HTTP/1.1", host: "localhost"
+2020/09/15 17:57:16 [error] 6856#4892: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:57:34 [notice] 8352#10220: signal process started
+2020/09/15 17:57:38 [error] 1732#2728: *3 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:57:38 [error] 1732#2728: *3 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:57:43 [notice] 1160#7572: signal process started
+2020/09/15 17:57:46 [error] 1732#2728: *4 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:57:58 [error] 6080#10928: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:58:05 [error] 6080#10928: *1 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 17:59:45 [error] 6080#10928: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 17:59:49 [notice] 7864#2540: signal process started
+2020/09/15 17:59:53 [error] 6080#10928: *4 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:08 [notice] 8672#11184: signal process started
+2020/09/15 18:00:08 [error] 8672#11184: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:00:17 [notice] 4376#7444: signal process started
+2020/09/15 18:00:17 [error] 4376#7444: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:00:26 [notice] 11072#4008: signal process started
+2020/09/15 18:00:26 [error] 11072#4008: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:00:39 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:40 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:41 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:41 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:42 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:45 [notice] 6164#6352: signal process started
+2020/09/15 18:00:48 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:49 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:50 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:53 [notice] 5460#60: signal process started
+2020/09/15 18:00:53 [error] 5460#60: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:00:57 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:00:58 [error] 10000#11548: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:01:53 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:01:55 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:01:56 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:02:12 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:02:17 [error] 7856#11772: *3 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 18:02:54 [notice] 6776#1652: signal process started
+2020/09/15 18:03:01 [error] 7856#11772: *3 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 18:03:02 [error] 7856#11772: *3 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 18:03:03 [error] 7856#11772: *3 "C:/data/www/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2020/09/15 18:03:09 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:03:49 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:03:53 [notice] 10692#4472: signal process started
+2020/09/15 18:03:53 [error] 10692#4472: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:03:59 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:04:01 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:04:02 [error] 7856#11772: *3 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:05:20 [error] 9612#10880: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:05:55 [error] 9612#10880: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:06:24 [error] 3132#10652: *1 CreateFile() "C:/data/images/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:06:25 [error] 3132#10652: *1 CreateFile() "C:/data/images/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:06:26 [error] 3132#10652: *1 CreateFile() "C:/data/images/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:07:14 [error] 3132#10652: *1 CreateFile() "C:/data/images/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:07:15 [error] 3132#10652: *1 CreateFile() "C:/data/images/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:07:46 [error] 3768#2624: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:08:10 [error] 3768#2624: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:09:03 [error] 3768#2624: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:09:20 [notice] 10180#13796: signal process started
+2020/09/15 18:09:25 [notice] 10800#7040: signal process started
+2020/09/15 18:09:25 [error] 10800#7040: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:09:34 [notice] 2488#4332: signal process started
+2020/09/15 18:09:34 [error] 2488#4332: CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/09/15 18:09:48 [error] 3768#2624: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:09:53 [error] 3768#2624: *1 CreateFile() "C:/data/images/download.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:11:38 [crit] 3976#9400: *1 CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205
+ginx-1.18.0\data/images/download.jpg" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 18:12:23 [crit] 3976#9400: *3 CreateFile() "C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205
+ginx-1.18.0\data/images/download.jpg" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: , request: "GET /images/download.jpg HTTP/1.1", host: "localhost"
+2020/09/15 21:14:48 [error] 14448#12860: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:80/", host: "localhost:8080"
+2020/09/15 21:14:48 [error] 14448#12860: *11 CreateFile() "C:/Users/17865/Documents/GitHub/BryanUniversity_Associate/ASF-205/nginx-1.18.0/data/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", host: "localhost", referrer: "http://localhost:8080/"
+2020/09/15 21:16:18 [emerg] 13136#6728: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:16:18 [alert] 12956#9916: worker process 13136 exited with code 1
+2020/09/15 21:16:18 [alert] 12956#9916: could not respawn worker
+2020/09/15 21:16:24 [emerg] 6576#8048: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:16:33 [emerg] 5168#13024: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:16:49 [emerg] 12952#14672: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:17:03 [emerg] 14460#9060: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:17:23 [emerg] 14700#10700: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:17:26 [emerg] 6416#11960: unknown directive "redirect" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:17:56 [emerg] 10012#13448: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:18:27 [emerg] 10496#15068: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:19:44 [emerg] 10372#10672: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:19:51 [error] 13288#14116: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:80/", host: "localhost:8080"
+2020/09/15 21:20:08 [error] 13288#14116: *10 CreateFile() "C:/Users/17865/Documents/GitHub/BryanUniversity_Associate/ASF-205/nginx-1.18.0/data/www/blue" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /blue HTTP/1.1", host: "localhost"
+2020/09/15 21:22:36 [emerg] 13656#12836: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:22:40 [error] 13288#14116: *13 CreateFile() "C:/Users/17865/Documents/GitHub/BryanUniversity_Associate/ASF-205/nginx-1.18.0/data/www/blue" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /blue HTTP/1.1", host: "localhost"
+2020/09/15 21:23:05 [emerg] 11436#9228: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:23:25 [emerg] 10328#11016: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:23:49 [emerg] 14936#5944: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:24:01 [emerg] 6324#11156: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:24:30 [emerg] 3528#8500: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:26:23 [emerg] 15180#13592: directive "root" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:27:17 [emerg] 13652#12852: directive "root" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:27:20 [emerg] 14792#12680: directive "root" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:29:43 [emerg] 7388#9976: directive "root" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:29:46 [emerg] 1728#3708: directive "root" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:30:03 [emerg] 136#12748: directive "root" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:30:16 [emerg] 13652#6276: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:30:36 [emerg] 5304#9444: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:130
+2020/09/15 21:30:51 [error] 10496#14684: *1 CreateFile() "C:/Users/17865/Documents/GitHub/BryanUniversity_Associate/ASF-205/nginx-1.18.0/data/www/blue" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /blue HTTP/1.1", host: "localhost"
+2020/09/15 21:33:49 [emerg] 13960#14224: invalid number of arguments in "return" directive in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:34:17 [emerg] 14844#2368: invalid number of arguments in "return" directive in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:129
+2020/09/15 21:35:48 [error] 15076#3212: *1 CreateFile() "C:/Users/17865/Documents/GitHub/BryanUniversity_Associate/ASF-205/nginx-1.18.0/data/www/blue" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /blue HTTP/1.1", host: "localhost"
+2020/09/15 21:36:36 [emerg] 13052#6800: unexpected end of file, expecting "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:148
+2020/09/15 21:36:36 [alert] 12492#2696: worker process 13052 exited with code 1
+2020/09/15 21:36:36 [alert] 12492#2696: could not respawn worker
+2020/09/15 21:36:46 [emerg] 8396#12052: unexpected end of file, expecting "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:148
+2020/09/15 21:37:06 [emerg] 6352#3016: unexpected end of file, expecting "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:148
+2020/09/15 21:42:12 [emerg] 8948#15236: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:149
+2020/09/15 21:42:21 [emerg] 9520#14132: unexpected "}" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:149
+2020/09/15 21:44:13 [error] 4276#368: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /blue HTTP/1.1", upstream: "http://[::1]:80/blue", host: "localhost:8080"
+2020/09/15 21:44:13 [error] 4276#368: *9 CreateFile() "C:/Users/17865/Documents/GitHub/BryanUniversity_Associate/ASF-205/nginx-1.18.0/data/www/blue" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /blue HTTP/1.0", host: "localhost"
+2020/09/15 21:46:07 [emerg] 4896#14632: directive "server_name" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:46:07 [alert] 14888#2308: worker process 4896 exited with code 1
+2020/09/15 21:46:07 [alert] 14888#2308: could not respawn worker
+2020/09/15 21:46:14 [emerg] 9752#13032: directive "server_name" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
+2020/09/15 21:46:20 [emerg] 9612#10148: directive "server_name" is not terminated by ";" in C:\Users\17865\Documents\GitHub\BryanUniversity_Associate\ASF-205\nginx-1.18.0/conf/nginx.conf:120
