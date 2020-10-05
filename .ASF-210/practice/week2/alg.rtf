@@ -1,0 +1,13 @@
+BEGIN Mapping_Phase //We start the mapping by executing the algorithm. The Ω mapping set is empty. 
+Ω = { }
+k = 1 //The first partition is selected as the resource pool for the T1 task (see line 3 of the preceding code). Television Rating Point (TRPS) iteratively calls the Rheumatoid Arthritis (RA) algorithm for each Ti task with one of the partitions chosen as the resource pool.
+FOREACH Ti∈T 
+    ωi = RA(Δk,Ti)  //The RA algorithm returns the set of resources chosen for the Ti task, represented by ωi (see line 5 of the preceding code).   
+    add {ωi,Ti} to Ω   //Ti and ωi are added to the mapping set (see line 6 of the preceding code).
+    state_changeTi [STATE 0: Idle/Unmapped] → [STATE 1: Idle/Mapped]  //The state of Ti is changed from STATE 0:Idle/Mapping to STATE 1:Idle/Mapped (see line 7 of the preceding code).   
+    k=k+1     //Note that for the first iteration, k=1 and the first partition is selected. For each subsequent iteration, the value of k is increased until k>q.
+    IF (k>q)       
+        k=1    //If k becomes greater than q, it is reset to 1 again (see lines 9 and 10 of the preceding code).
+    ENDIF 
+END FOREACH //This process is repeated until a mapping between all tasks and the set of resources they will use is determined and stored in a mapping set called Ω.
+END Mapping_Phase //Once each of the tasks is mapped to a set of the resources in the mapping phase, it is executed.
